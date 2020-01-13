@@ -34,7 +34,7 @@ include 'konekcija.php';
 
 		<div class="container">
       <div class="section-header text-center">
-        <h2 class="title">Graficki prikaz podataka</h2>
+        <h2 class="title">Grafički prikaz podataka</h2>
 				<h4 id="rez"></h4>
       </div>
       <div id="piechart"></div>

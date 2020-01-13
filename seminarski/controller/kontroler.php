@@ -24,9 +24,9 @@ if(isset($_GET['operacija'])){
     $usluga = new Usluga();
     $usluga->setUslugaID($id);
     if($usluga->delete($konekcija)){
-      echo "Usluga vise nije u ponudi. Uspesno obrisana.";
+      echo "Usluga više nije u ponudi. Uspešno obrisana.";
     }else{
-      echo "Neuspesno obrisana usluga.";
+      echo "Neuspešno obrisana usluga.";
     }
   }
 }

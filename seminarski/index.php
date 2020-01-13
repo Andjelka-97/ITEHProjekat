@@ -35,14 +35,14 @@ include 'sesija.php';
 			<div class="row">
 
 				<div class="section-header text-center">
-					<h2 class="title">Dobrodosli</h2>
+					<h2 class="title">Dobrodošli!</h2>
 				</div>
 
 				<div class="col-md-4">
 					<div class="about">
 						<i class="fa fa-cogs"></i>
-						<h3>Slusamo vas</h3>
-						<p>Svaka vasa zelja ce biti ispunjena, bio to sajt ili drustvena mreza, tu smo za vas</p>
+						<h3>Slušamo vas</h3>
+						<p>Tu smo za vas!</p>
 					</div>
 				</div>
 
@@ -50,7 +50,7 @@ include 'sesija.php';
 					<div class="about">
 						<i class="fa fa-magic"></i>
 						<h3>Stvaramo magiju</h3>
-						<p>Mi stvaramo magiju za vas, vasa vizija ce postati realnost</p>
+						<p>Mi stvaramo magiju za vas, vaša vizija ce postati realnost!</p>
 					</div>
 				</div>
 
@@ -58,7 +58,7 @@ include 'sesija.php';
 					<div class="about">
 						<i class="fa fa-mobile"></i>
 						<h3>Responzivnost</h3>
-						<p>Responzivnost je nasa tajna, necete brinuti o mobilnom delu sajta</p>
+						<p>Responzivnost je naša tajna, nećete brinuti o mobilnom delu sajta!</p>
 					</div>
 				</div>
 
@@ -82,7 +82,7 @@ include 'sesija.php';
 					<div class="number">
 						<i class="fa fa-users"></i>
 						<h3 class="white-text"><span class="counter">75</span></h3>
-						<span class="white-text">Srecnih klijenata</span>
+						<span class="white-text">Srećnih klijenata</span>
 					</div>
 				</div>
 
@@ -98,7 +98,7 @@ include 'sesija.php';
 					<div class="number">
 						<i class="fa fa-coffee"></i>
 						<h3 class="white-text"><span class="counter">56000</span></h3>
-						<span class="white-text">Soljica kafe</span>
+						<span class="white-text">Šoljica kafe</span>
 					</div>
 				</div>
 
@@ -106,7 +106,7 @@ include 'sesija.php';
 					<div class="number">
 						<i class="fa fa-file"></i>
 						<h3 class="white-text"><span class="counter">124</span></h3>
-						<span class="white-text">Projekata zavrseno</span>
+						<span class="white-text">Projekata završeno</span>
 					</div>
 				</div>
 
@@ -119,9 +119,9 @@ include 'sesija.php';
 
 		<div class="container">
       <div class="section-header text-center">
-        <h2 class="title">Sta nudimo</h2>
-				<button class="btn btn-default" onclick="vratiSveUslugeSortirano('rastuce')">Sortiraj rastuce</button>
-				<button class="btn btn-default" onclick="vratiSveUslugeSortirano('opadajuce')">Sortiraj opadajuce</button>
+        <h2 class="title">ŠTA NUDIMO?</h2>
+				<button class="btn btn-default" onclick="vratiSveUslugeSortirano('rastuce')">Sortiraj rastuće</button>
+				<button class="btn btn-default" onclick="vratiSveUslugeSortirano('opadajuce')">Sortiraj opadajuće</button>
       </div>
 			<div id="usluge" class="row">
 
@@ -162,7 +162,7 @@ include 'sesija.php';
 			<div class="row">
 
 				<div class="section-header text-center">
-					<h2 class="title">Get in touch</h2>
+					<h2 class="title">Kontaktirajte nas:</h2>
 				</div>
 
 				<div class="col-sm-4">
@@ -176,7 +176,7 @@ include 'sesija.php';
 				<div class="col-sm-4">
 					<div class="contact">
 						<i class="fa fa-envelope"></i>
-						<h3>Email</h3>
+						<h3>E-mail</h3>
 						<p>podrska@reseau.com</p>
 					</div>
 				</div>
@@ -185,12 +185,12 @@ include 'sesija.php';
 					<div class="contact">
 						<i class="fa fa-map-marker"></i>
 						<h3>Adresa</h3>
-						<p>Jove Ilica 154</p>
+						<p>Jove Ilića 154</p>
 					</div>
 				</div>
 			</div>
 
-			<div id="google-map" data-latitude="44.772790" data-longitude="20.475015" style="height: 500px;"></div>
+			
 
 
 		</div>

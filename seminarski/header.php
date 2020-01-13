@@ -28,7 +28,7 @@
                 }
 
                 ?>
-                <li><a href="vizuelizacija.php">Graficki prikaz podataka</a></li>
+                <li><a href="vizuelizacija.php">Grafički prikaz podataka</a></li>
                 <li><a href="logout.php">LogOut</a></li>
                 <?php
             }else{
@@ -50,8 +50,8 @@
 
         <div class="col-md-10 col-md-offset-1">
           <div class="home-content">
-            <h1 class="white-text">Mi smo Reseau</h1>
-            <p class="white-text">Mi smo ovde da vas digitalni svet postane setnja parkom, jer najbolji brinu o vama
+            <h1 class="white-text">Mi smo Réseau!</h1>
+            <p class="white-text">We are what you want.
             </p>
 
           </div>
