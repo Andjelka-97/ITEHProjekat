@@ -2,7 +2,7 @@
 class Database {
 	private $hostname = "localhost";
 	private $username = "root";
-	private $password = "1234";
+	private $password = "";
 	private $dbname = "reseau";
 	private $dblink;
 	private $result = true;

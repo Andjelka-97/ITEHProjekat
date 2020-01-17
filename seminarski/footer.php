@@ -21,7 +21,7 @@
 					</ul>
 
 					<div class="footer-copyright">
-						<p>Copyright © 2018. All Rights Reserved. Designed by <a href="#" >Inna</a></p>
+						<p>Copyright © 2020. All Rights Reserved. Designed by <a href="#" >An&Andj</a></p>
 					</div>
 
 				</div>

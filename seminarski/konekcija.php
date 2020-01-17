@@ -4,7 +4,7 @@
 		ini_set("log_errors", true);
 		ini_set("error_log", "upravljanjeGreskama.log");
 
-    $konekcija = new mysqli("localhost","root","1234","reseau");
+    $konekcija = new mysqli("localhost","root","","reseau");
 
     if($konekcija->connect_error)
     {
