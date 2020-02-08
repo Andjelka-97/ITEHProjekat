@@ -123,3 +123,26 @@ Stack trace:
 [17-Jan-2020 01:31:47 Europe/Berlin] PHP Notice:  Undefined variable: db_db in C:\xampp\htdocs\ana\gotov\seminarski\server_obrada.php on line 25
 [17-Jan-2020 01:31:47 Europe/Berlin] PHP Notice:  Undefined variable: db_server in C:\xampp\htdocs\ana\gotov\seminarski\server_obrada.php on line 26
 [17-Jan-2020 01:34:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 105
+[08-Feb-2020 01:52:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected ':' in C:\xampp\htdocs\ana\gotov\seminarski\header.php on line 29
+[08-Feb-2020 01:52:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected ':' in C:\xampp\htdocs\ana\gotov\seminarski\header.php on line 29
+[08-Feb-2020 01:52:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected ':' in C:\xampp\htdocs\ana\gotov\seminarski\header.php on line 29
+[08-Feb-2020 02:04:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\ana\gotov\seminarski\header.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ana\gotov\seminarski\login.php(40): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\ana\gotov\seminarski\header.php on line 30
+[08-Feb-2020 02:05:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\ana\gotov\seminarski\header.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ana\gotov\seminarski\login.php(40): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\ana\gotov\seminarski\header.php on line 30
+[08-Feb-2020 16:33:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 106
+[08-Feb-2020 16:35:22 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 106
+[08-Feb-2020 16:37:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 106
+[08-Feb-2020 16:43:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 106
+[08-Feb-2020 17:00:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 106
+[08-Feb-2020 17:01:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 106
+[08-Feb-2020 17:02:20 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 106
+[08-Feb-2020 17:02:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 107
+[08-Feb-2020 17:05:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 107
+[08-Feb-2020 17:06:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ana\gotov\seminarski\administracija.php on line 107

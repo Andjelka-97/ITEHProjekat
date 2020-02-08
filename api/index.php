@@ -36,7 +36,7 @@ Flight::route('GET /testemoniali', function()
 	$db = Flight::db();
 	$db->vratiTestemoniale();
 
-	$niz =  [];
+	$niz =  array();
 	$i = 0;
 	while ($red = $db->getResult()->fetch_object())
 	{

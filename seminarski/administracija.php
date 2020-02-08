@@ -97,7 +97,26 @@ include 'model/testemonial.php';
 				</thead>
 				<tbody>
 			
-				
+				<?php
+						//	$podaci = Testemonial::getAll($konekcija);
+              $curl = curl_init("http://localhost/ana/gotov/api/testemoniali");
+        			curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        			$jsonOdgovor = curl_exec($curl);
+			  $podaci = json_decode($jsonOdgovor);
+			  curl_close($curl);
+							foreach ($podaci as $p ) {
+
+								?>
+								<tr>
+								
+									<td><?php echo $p->ime ?></td>
+									<td><?php echo $p->text ?></td>
+									<td><img src="slike/<?php echo $p->slika ?>" class="img img-responsive" alt=""></td>
+								</tr>
+
+								<?php
+							}
+					 ?>
 				</tbody>
 			</table>
 
@@ -105,36 +124,7 @@ include 'model/testemonial.php';
 
 	</div>
 
-	<div id="service" class="section md-padding">
-
-		<div class="container">
-      <div class="section-header text-center">
-        <h2 class="title">Testemonials</h2>
-				<h4 id="rez"></h4>
-      </div>
-
-			<form action="upload.php" method= "POST" enctype="multipart/form-data">
-				<div class="col-md-12">
-					<label for="ime">Ime</label>
-					<input type="text" class="form-control" placeholder="Ime" id="ime" name="ime">
-				</div>
-				<div class="col-md-12">
-					<label for="text">Tekst</label>
-					<input type="text" class="form-control" placeholder="Text" id="text" name="text">
-				</div>
-				<div class="col-md-12">
-					<label for="fileToUpload">Slika</label>
-					<input type="file" class="form-control" placeholder="Unesite sliku" id="fileToUpload" name="fileToUpload">
-				</div>
-				<br>
-				<div class="col-md-12">
-					<label for="submit"></label>
-					<input type="submit" class="form-control" value="Sacuvaj" id="submit" name="submit">
-				</div>
-			</form>
-
-		</div>
-	</div>
+	
 
 
 

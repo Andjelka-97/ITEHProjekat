@@ -24,6 +24,7 @@ class User{
       $user->username = $jedanRed['username'];
       $user->password = $jedanRed['password'];
       $user->isAdmin = $jedanRed['isAdmin'] == "1" ? true : false;
+     
       $user->ulogovan = true;
 
       $_SESSION['user'] = $user;

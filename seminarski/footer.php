@@ -6,6 +6,10 @@
 			<div class="row">
 
 				<div class="col-md-12">
+					
+			
+	
+		
 
 					<div class="footer-logo">
 						<a href="index.php"><img src="img/logo.png" alt="logo"></a>
@@ -21,6 +25,7 @@
 					</ul>
 
 					<div class="footer-copyright">
+
 						<p>Copyright © 2020. All Rights Reserved. Designed by <a href="#" >An&Andj</a></p>
 					</div>
 
